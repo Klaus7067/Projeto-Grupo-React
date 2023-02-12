@@ -1,6 +1,6 @@
 # Projeto em grupo - Módulo 3 - Sendo servidos
 
-![badge-status](https://img.shields.io/badge/status-FINALIZADO-green?style=for-the-badge)
+![badge-status](https://img.shields.io/badge/status-PROCESSANDO-yellow?style=for-the-badge)
 
 # Objetivo do projeto
 
