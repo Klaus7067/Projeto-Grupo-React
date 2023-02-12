@@ -6,13 +6,13 @@ import Head from '../../components/Head'
 import './styles.css'
 
 function Home() {
-  return (
+    return (
     <div className='container-home'>
         <Head title="Home"/>
         
         <div className="containerLinks">
             <div className='container-logo'>
-                <a className='logo' href='https://github.com/fernandorussie/cinemaAPI' target="_blank">
+                <a className='logo'>
                     <p>
                         CineArt
                     </p>
@@ -21,7 +21,7 @@ function Home() {
                 Site de filmes e series
                 </p>
             </div>
-              
+
                 <div className="Plus">
                     <Link to={`/terror`}>
                         <div className="Plus--link" aria-label="terror">
@@ -91,7 +91,7 @@ function Home() {
                 </div>
             </div>
     </div>
-  );
+);
 }
 
 export default Home;

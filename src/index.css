@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
 
 :root {
-  --accent-color: rgb(102, 57, 139);
+--accent-color: rgb(102, 57, 139);
 }
 main{
     min-height: 73.9vh;
