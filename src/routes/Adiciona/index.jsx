@@ -85,9 +85,9 @@ const Adiciona = () => {
         </div>
 
         <div className="input-box">
-          <label className="title-label">Preco</label>
+          <label className="title-label">Preço</label>
           <input
-            type="date"
+            type="valor"
             className="input-text"
             placeholder="Digite o preco"
             value={preco}

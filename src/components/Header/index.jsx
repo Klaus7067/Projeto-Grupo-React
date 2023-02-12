@@ -15,7 +15,7 @@ function Header() {
                         <Link to={`/hardware`}>Hardware</Link>
                     </li>
                     <li>
-                        <Link to={'/perifericos'}>Perifericos</Link>
+                        <Link to={'/perifericos'}>Periféricos</Link>
                     </li>
                     <li>
                         <Link to={'/smartphones'}>Smartphones</Link>

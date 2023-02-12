@@ -5,8 +5,6 @@ import App from './App'
 import Home from './routes/Home'
 import Perifericos from './routes/Perifericos'
 import Hardware from './routes/Hardware'
-// import Perifericos from './routes/Perifericos'
-import Smartphones from './routes/Smartphones'
 import Adiciona from './routes/Adiciona'
 
 import { ToastContainer } from 'react-toastify'

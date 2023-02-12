@@ -30,7 +30,7 @@ function Home() {
                                     <div className="Plus--title">
                                         <p>HARDWARE</p>
                                     </div>
-                                    <img alt="" className="Plus--image Plus--hover-image" src="https://i.gifer.com/4LWh.gif"/>
+                                    <img alt="" className="Plus--image Plus--hover-image" src="https://s.zst.com.br/cms-assets/2021/02/o-que-e-hardware-1-.jpg"/>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function Home() {
                                     <div className="Plus--title">
                                         <p>PERIFÉRICOS</p>
                                     </div>
-                                    <img alt="" className="Plus--image Plus--hover-image" src="https://media.giphy.com/media/DyqPAnuAklAXe/giphy.gif"/>
+                                    <img alt="" className="Plus--image Plus--hover-image" src="https://platformuploads.s3.amazonaws.com/media/14135/14350/16129008838009727.jpg?Signature=ZPr6L05Tp3UeoLLfUQOg%2FuopGbo%3D&AWSAccessKeyId=AKIAJOIWZCRTROUA2YMQ&Expires=1676309820"/>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ function Home() {
                                     <div className="Plus--title">
                                         <p>SMARTPHONES</p>
                                     </div>
-                                    <img alt="" className="Plus--image Plus--hover-image" src="https://media.giphy.com/media/l4KigDk35mBdez6TK/giphy.gif"/>
+                                    <img alt="" className="Plus--image Plus--hover-image" src="https://tm.ibxk.com.br/2019/12/16/16144954939212.jpg?ims=1120x420"/>
                                 </div>
                             </div>
                         </div>

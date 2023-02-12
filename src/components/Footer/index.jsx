@@ -1,45 +1,34 @@
-import { Link } from "react-router-dom";
-
 import './footer.css'
-
 function Footer() {
     return ( 
         <div>
             <footer>
                 <ul class="wrapper">
-                    <a href="https://github.com/fernandorussie" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/juanjpf" target="_blank" rel="noopener noreferrer">
                         <li class="icon facebook">
-                            <span class="tooltip">Fernando</span>
+                            <span class="tooltip">Juan</span>
                             <span></span>
                         </li>
                     </a>
-                    <a href="https://github.com/vtbrgt" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Klaus7067" target="_blank" rel="noopener noreferrer">
                     <li class="icon twitter">
-                        <span class="tooltip">Vitor</span>
+                        <span class="tooltip">Rian</span>
                         <span><i class="fab fa-twitter"></i></span>
                     </li>
 
                     </a>
-                    <a href="https://github.com/millenakeli" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/luansilva92" target="_blank" rel="noopener noreferrer">
                     <li class="icon instagram">
-                        <span class="tooltip">Milena</span>
+                        <span class="tooltip">Luan</span>
                         <span><i class="fab fa-instagram"></i></span>
                     </li>
 
                     </a>
-                    <a href="https://github.com/LoboMurilo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/thiagomaximo94" target="_blank" rel="noopener noreferrer">
                     <li class="icon twitter">
-                        <span class="tooltip">Murilo</span>
+                        <span class="tooltip">Thiago</span>
                         <span><i class="fab fa-twitter"></i></span>
                     </li>
-
-                    </a>
-                    <a href="https://github.com/azuosss" target="_blank" rel="noopener noreferrer">
-                    <li class="icon instagram">
-                        <span class="tooltip">Iury</span>
-                        <span><i class="fab fa-instagram"></i></span>
-                    </li>
-
                     </a>
                 </ul>
             </footer>
