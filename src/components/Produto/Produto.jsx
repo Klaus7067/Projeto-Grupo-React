@@ -5,12 +5,12 @@ import api from '../../service/api'
 import 'react-toastify/dist/ReactToastify.css';
 import './Produto.css'
 
-const Produto = ({id, nome, preco, descricao, categoria}) => {
+const Produto = ({id, nome, poster, descricao, genero}) => {
     const [modalOpen, setModalOpen] = React.useState(false);
 
     
     const deleteElement = async (id) => {
-        await api.delete(`/${categoria}/${id}`)
+        await api.delete(`/${genero}/${id}`)
         .then((sucesso) => {
           if (sucesso.status === 200) window.location.reload()
         })
@@ -21,12 +21,12 @@ const Produto = ({id, nome, preco, descricao, categoria}) => {
 
   return (
     <div key={id} className='property-card'>
-                <img src={preco} alt={nome} />
+                <img src={poster} alt={nome} />
                 <div className='property-description'>
                   <h5>{nome}</h5>
                   <div className='description'>{descricao}</div>
                   <div className='box-config'>
-                    <Link className='btn-link' to={`/${categoria}/${id}`}>
+                    <Link className='btn-link' to={`/${genero}/${id}`}>
                       Acessar
                     </Link>
                     

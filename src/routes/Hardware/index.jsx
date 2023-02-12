@@ -10,7 +10,7 @@ import Head from '../../components/Head';
 Modal.setAppElement('#root');
 function Produto() {
   const navigate = useNavigate();
-  const { categoria, id } = useParams();
+  const { genero, id } = useParams();
 
   const [modalIsOpen, setIsOpen] = useState(false);
   const [item, setItem] = useState({});
@@ -22,7 +22,7 @@ function Produto() {
   useEffect(() => {
     async function getApi() {
       await api
-        .get(`/${categoria}/${id}`)
+        .get(`/${genero}/${id}`)
         .then((response) => {
           setItem(response.data);
         })
@@ -38,7 +38,7 @@ function Produto() {
 
   const editElement = async (id) => {
     await api
-      .patch(`/${categoria}/${id}`, {
+      .patch(`/${genero}/${id}`, {
         nome: nome,
         poster: poster,
         preco: preco,

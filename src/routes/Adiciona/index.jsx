@@ -11,11 +11,11 @@ const Adiciona = () => {
   const [descricao, setDescricao] = useState();
   const [preco, setPreco] = useState();
   const [poster, setPoster] = useState();
-  const [categoria, setCategoria] = useState('');
+  const [genero, setGenero] = useState('');
   const [erro, setErro] = useState(null);
 
   function validate() {
-    if (!nome || !descricao || !preco || !poster || !categoria) {
+    if (!nome || !descricao || !preco || !poster || !genero) {
       return false;
     } else return true;
   }
@@ -34,14 +34,14 @@ const Adiciona = () => {
         userId: 1,
       };
       await api
-        .post(`/${categoria}`, item)
+        .post(`/${genero}`, item)
         .then(({ status }) => {
           if (status === 201) {
             setNome('');
             setDescricao('');
             setPreco('');
             setPoster('');
-            setCategoria('');
+            setGenero('');
             toast.success('Produto cadastrado com sucesso!');
           }
         })
@@ -59,12 +59,12 @@ const Adiciona = () => {
         {erro && <p className="erro">{erro}</p>}
         <h2>Inserir novo produto</h2>
         <div className="input-box">
-          <label className="title-label">Escolha o categoria do produto</label>
+          <label className="title-label">Escolha o genero do produto</label>
           <select className='select-form'
-            name="categoria"
-            onChange={(e) => setCategoria(e.target.value)}
+            name="genero"
+            onChange={(e) => setGenero(e.target.value)}
             required
-            value={categoria}
+            value={genero}
           >
             <option className='select-option' value="">Selecione</option>
             <option value="hardware">Hardware</option>

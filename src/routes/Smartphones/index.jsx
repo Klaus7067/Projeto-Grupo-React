@@ -9,14 +9,14 @@ import Produto from '../../components/Produto/Produto';
 import Head from '../../components/Head';
 
 function App() {
-  const { categoria } = useParams();
+  const { genero } = useParams();
   const [item, setItem] = useState([]);
   const [load, setLoad] = useState(true);
 
   useEffect(() => {
     function getApi() {
       api
-        .get(`/${categoria}`)
+        .get(`/${genero}`)
         .then((response) => {
           const data = response.data;
           setLoad(false);
@@ -27,7 +27,7 @@ function App() {
         });
     }
     getApi();
-  }, [categoria]);
+  }, [genero]);
 
   if (load) {
     return (
@@ -44,7 +44,7 @@ function App() {
         {item.length === 0 ? (
           <div>
             <h2>
-              Esta categoria não possiu nenhum produto no momento, clique{' '}
+              Esta genero não possiu nenhum produto no momento, clique{' '}
               <Link to={`/adiciona`}>Aqui</Link> para adicionar um novo produto!
             </h2>
           </div>
@@ -56,7 +56,7 @@ function App() {
               nome={item.nome}
               descricao={item.descricao}
               key={item.id}
-              categoria={categoria}
+              genero={genero}
             />
           ))
         )}
