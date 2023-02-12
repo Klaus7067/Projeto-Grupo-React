@@ -15,11 +15,11 @@ Criar uma aplicação em React onde fosse possível realizar diversas métodos d
 
 # Acesso ao projeto
 
-Você pode acessar o deploy do projeto [aqui](https://vercel.com/dashboard)
+Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react.vercel.app/)
 
 # Abrir e rodar o projeto
 
-- Crie um clone de `https://github.com/`
+- Crie um clone de `https://github.com/Klaus7067/Projeto-Grupo-React/`
 - Instale as depêndencias com `npm install`
 - Executar o projeto com `npm run dev`
 
