@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #17191f;
+}
+header h2 a{
+    opacity: 1;
+}
+header ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-add{
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    opacity: 1;
+}
+.btn-add:hover {
+    color: rgb(211, 208, 212);
+    border-color: rgb(193, 117, 255);
+}

@@ -1,0 +1,78 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(12, 12, 12, 0.445);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+}
+
+.modalContent {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: #29203f;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  /* border: 1px solid #ffffff4d; */
+  border: none;
+  overflow: auto;
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+}
+.iconBox {
+	margin: 0 auto;
+	z-index: 9;
+	text-align: center;
+}
+.modalContent h4 {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 4rem;
+}
+.modalBody {
+	color: #999;
+}
+.modalFooter {
+	border: none;
+	text-align: center;		
+	border-radius: 5px;
+	font-size: 13px;
+  margin: 1rem 0;
+	padding: 20px 15px 0px;
+}
+.modalFooter button {
+	background: rgba(193, 117, 255, 0.400);
+  color: white;
+	text-decoration: none;
+	transition: all 1s;
+	line-height: normal;
+	min-width: 120px;
+	border: none;
+	min-height: 40px;
+	border-radius: 3px;
+	margin: 0 5px;
+  cursor: pointer;
+}
+.modalFooter .btnDanger{
+  background: #f15e5e;
+}
+.btnSecondary:hover{
+  background: rgba(193, 117, 255, 0.300);
+  transition-duration: 0.5s;
+  border: 1px solid rgb(193, 117, 255);
+}
+.btnDanger:hover{
+  background: #ee3535;
+}

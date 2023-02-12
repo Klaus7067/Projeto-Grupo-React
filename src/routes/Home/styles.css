@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    min-height: 100vh;
+}
+.container-home{
+    height: 75.05vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.containerLinks {
+    width: 95%;
+    padding: 0 0 26px;
+    margin: 0 auto;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.container-home p {
+    color: white;
+}
+.logo{
+    text-decoration: none;
+    opacity: 1;
+}
+.logo p{
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 20px pink;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+
+.Plus {
+    align-content: center;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin: 0px 0px 0px -20px;
+}
+.Plus > a, .Plus > div {
+    width: calc(20% - 20px);
+    margin: 20px 0px 0px 20px;
+    flex: 0 0 auto;
+    opacity: 1;
+}
+.Plus--link {
+    border-radius: 10px;
+}
+.Plus--link {
+    background-image: linear-gradient(rgb(58, 60, 74), rgb(36, 38, 50));
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 250ms cubic-bezier(0.25, 0.40, 0.40, 0.90) 0s !important;
+}
+.Plus--link div {
+    border-radius: 10px;
+    transition: opacity 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.Plus--image-container {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42)) 0% 0% / cover;
+    overflow: hidden;
+    border-radius: 6px; 
+    padding-top: 56.25%;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important;
+    border: 3px solid rgba(255,255,255,.1);
+}
+.Plus--link:hover .Plus--image-container {
+    border-color: rgba(255,255,255,.45);
+}
+.Plus--link img:not(.Plus--hover-image) {
+    z-index: 1;
+}
+.Plus--title {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out 0s;
+    z-index: 2;
+}
+.Plus--title p{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 3px 3px rgba(0,0,0,0.54);
+
+    transition: opacity 500ms ease-in-out 0s;
+}
+.Plus--image {
+    bottom: 0px;
+    display: block;
+    height: 100%;
+    left: 0px;
+    object-fit: cover;
+    opacity: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    transition: opacity 500ms ease-in-out 0s;
+    
+}
+.Plus--link img.Plus--hover-image {
+    opacity: 0;
+    z-index: 0;
+}
+.Plus--link:hover img.Plus--hover-image, .Plus--link:focus img.Plus--hover-image, .Plus--link:hover p{
+    opacity: 1;
+}
+.Plus--link:hover, .Plus--link:focus {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 40px 58px -16px, rgba(0, 0, 0, 0.72) 0px 30px 22px -10px;
+    transform: scale(1.05);
+}
