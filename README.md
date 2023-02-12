@@ -9,18 +9,17 @@ Criar uma aplicação em React onde fosse possível realizar diversas métodos d
 # Features e demonstração da aplicação
 
 - [x] Realizar os seguintes métodos de requisição a API: GET, PUT, PATCH e DELETE
-- [x] Cadastrar um novo filme
-- [x] Excluir um filme
-- [x] Página com mais informações sobre o filme
-- [x] Redirecionamento ao trailer do filme
+- [x] Cadastrar um novo produto
+- [x] Excluir um produto
+- [x] Página com mais informações sobre o produto
 
 # Acesso ao projeto
 
-Você pode acessar o deploy do projeto [aqui](https://cinema-api-zeta.vercel.app)
+Você pode acessar o deploy do projeto [aqui](https://.....)
 
 # Abrir e rodar o projeto
 
-- Crie um clone de `https://github.com/fernandorussie/cinemaAPI.git`
+- Crie um clone de `https://github.com/......`
 - Instale as depêndencias com `npm install`
 - Executar o projeto com `npm run dev`
 
@@ -35,47 +34,38 @@ Você pode acessar o deploy do projeto [aqui](https://cinema-api-zeta.vercel.app
 
 # Autores
 
-### Fernando Felip
+### Rian Cardoso
 
-<a style="display: block;" href="https://github.com/fernandorussie" target="_blank">
+<a style="display: block;" href="https://github.com/Klaus7067" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="https://www.linkedin.com/in/fernando-felip/" target="_blank">
+<a href="https://www.linkedin.com/in/rian-cardoso-desenvolvedor-ti/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-### Iury Virgilio
+### Luan Pereira
 
-<a style="display: block;" href="https://github.com/azuosss" target="_blank">
+<a style="display: block;" href="https://github.com/luansilva92" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="https://www.linkedin.com/in/azuosss/" target="_blank">
+<a href="https://www.linkedin.com/in/luan-pereira-14a8556a/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-### Millena Keli
-
-<a style="display: block;" href="https://github.com/millenakeli" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-</a>
-<a href="https://www.linkedin.com/in/millena-keli-ab23bb250/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-### Murilo Menezes Lobo
+### Juan Fernandes
 
 <a style="display: block;" href="https://github.com/LoboMurilo" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="https://www.linkedin.com/in/murilomenezeslobo/" target="_blank">
+<a href="https://www.linkedin.com/in/juanfernandes02/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-### Vitor Borgatte
+### Thiago Maximo
 
-<a style="display: block;" href="https://www.github.com/vtbrgt" target="_blank">
+<a style="display: block;" href="https://github.com/Thiagomaximo94" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
-<a href="https://www.linkedin.com/in/vitor-borgatte/" target="_blank">
+<a href="https://www.linkedin.com/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
