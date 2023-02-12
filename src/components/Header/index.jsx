@@ -12,22 +12,16 @@ function Header() {
                         <Link to={'/'}>Home</Link>
                     </li>
                     <li>
-                        <Link to={`/terror`}>Terror</Link>
+                        <Link to={`/hardware`}>Hardware</Link>
                     </li>
                     <li>
-                        <Link to={'/comedia'}>Comédia</Link>
+                        <Link to={'/perifericos'}>Perifericos</Link>
                     </li>
                     <li>
-                        <Link to={'/romance'}>Romance</Link>
+                        <Link to={'/smartphones'}>Smartphones</Link>
                     </li>
                     <li>
-                        <Link to={'/acao'}>Ação</Link>
-                    </li>
-                    <li>
-                        <Link to={'/drama'}>Drama</Link>
-                    </li>
-                    <li>
-                        <Link className="btn-add" to={'/adiciona'}>Adicionar Filme</Link>
+                        <Link className="btn-add" to={'/adiciona'}>Adicionar Produto</Link>
                     </li>
                 </ul>
             </header>

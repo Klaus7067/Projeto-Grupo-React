@@ -9,14 +9,13 @@ import Head from '../../components/Head';
 const Adiciona = () => {
   const [nome, setNome] = useState();
   const [descricao, setDescricao] = useState();
-  const [ano, setAno] = useState();
+  const [preco, setPreco] = useState();
   const [poster, setPoster] = useState();
-  const [duracao, setDuracao] = useState();
-  const [genero, setGenero] = useState('');
+  const [categoria, setCategoria] = useState('');
   const [erro, setErro] = useState(null);
 
   function validate() {
-    if (!nome || !descricao || !ano || !poster || !duracao || !genero) {
+    if (!nome || !descricao || !preco || !poster || !categoria) {
       return false;
     } else return true;
   }
@@ -30,53 +29,47 @@ const Adiciona = () => {
         nome,
         descricao,
         poster,
-        duracao,
-        ano,
+        preco,
         categoria_id: 1,
         userId: 1,
       };
       await api
-        .post(`/${genero}`, item)
+        .post(`/${categoria}`, item)
         .then(({ status }) => {
           if (status === 201) {
             setNome('');
             setDescricao('');
-            setAno('');
+            setPreco('');
             setPoster('');
-            setDuracao('');
-            setGenero('');
-            toast.success('Filme cadastrado com sucesso!');
+            setCategoria('');
+            toast.success('Produto cadastrado com sucesso!');
           }
         })
         .catch((error) => console.log(error));
     } else {
       setErro('Preencha todos os campos do formulário!');
     }
-    // console.log("Upload Imagem")
-    // console.log(imagem)
-    // navigate("/terror", {replace: true})
+
   };
 
   return (
     <div className="new-post">
-      <Head title="Cadastrar novo filme"/>
+      <Head title="Cadastrar novo produto"/>
       <form className="form-content" onSubmit={(e) => addItem(e)}>
         {erro && <p className="erro">{erro}</p>}
-        <h2>Inserir novo Filme</h2>
+        <h2>Inserir novo produto</h2>
         <div className="input-box">
-          <label className="title-label">Escolha o genero do filme</label>
+          <label className="title-label">Escolha o categoria do produto</label>
           <select className='select-form'
-            name="genero"
-            onChange={(e) => setGenero(e.target.value)}
+            name="categoria"
+            onChange={(e) => setCategoria(e.target.value)}
             required
-            value={genero}
+            value={categoria}
           >
             <option className='select-option' value="">Selecione</option>
-            <option value="terror">Terror</option>
-            <option value="comedia">Comedia</option>
-            <option value="acao">Ação</option>
-            <option value="drama">Drama</option>
-            <option value="romance">Romance</option>
+            <option value="hardware">Hardware</option>
+            <option value="perifericos">Perifericos</option>
+            <option value="smartphones">Smartphones</option>
           </select>
         </div>
         <div className="input-box">
@@ -84,7 +77,7 @@ const Adiciona = () => {
           <input
             type="text"
             className="input-text"
-            placeholder="Digite o nome do filme"
+            placeholder="Digite o nome do produto"
             required
             value={nome}
             onChange={(e) => setNome(e.target.value)}
@@ -92,43 +85,32 @@ const Adiciona = () => {
         </div>
 
         <div className="input-box">
-          <label className="title-label">Ano de Lançamento</label>
+          <label className="title-label">Preco</label>
           <input
             type="date"
             className="input-text"
-            placeholder="Digite o ano de lançamento"
-            value={ano}
-            onChange={(e) => {setAno(e.target.value)}}
+            placeholder="Digite o preco"
+            value={preco}
+            onChange={(e) => {setPreco(e.target.value)}}
           />
         </div>
 
         <div className="input-box">
-          <label className="title-label">Duração</label>
+          <label className="title-label">Imagem</label>
           <input
             type="text"
             className="input-text"
-            placeholder="Digite a duracao do filme em minutos"
-            value={duracao}
-            onChange={(e) => setDuracao(e.target.value)}
-          />
-        </div>
-
-        <div className="input-box">
-          <label className="title-label">Poster</label>
-          <input
-            type="text"
-            className="input-text"
-            placeholder="Digite a url do poster"
+            placeholder="Digite a url da imagem"
             value={poster}
             onChange={(e) => setPoster(e.target.value)}
           />
         </div>
 
         <div className="input-box">
-          <label className="title-label">Sinopse</label>
+          <label className="title-label">Descrição</label>
           <textarea
             className="input-text comment"
-            placeholder="Digite a descrição do filme..."
+            placeholder="Digite a descrição do produto..."
             value={descricao}
             onChange={(e) => setDescricao(e.target.value)}
           ></textarea>

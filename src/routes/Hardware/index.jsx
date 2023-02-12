@@ -4,25 +4,25 @@ import Modal from 'react-modal';
 
 import api from '../../service/api';
 
-import './filme.css';
+import './produto.css';
 import Head from '../../components/Head';
 
 Modal.setAppElement('#root');
-function Filme() {
+function Produto() {
   const navigate = useNavigate();
-  const { genero, id } = useParams();
+  const { categoria, id } = useParams();
 
   const [modalIsOpen, setIsOpen] = useState(false);
   const [item, setItem] = useState({});
   const [nome, setNome] = useState();
-  const [ano, setAno] = useState();
+  const [preco, setPreco] = useState();
   const [poster, setPoster] = useState();
   const [descricao, setDescricao] = useState();
 
   useEffect(() => {
     async function getApi() {
       await api
-        .get(`/${genero}/${id}`)
+        .get(`/${categoria}/${id}`)
         .then((response) => {
           setItem(response.data);
         })
@@ -38,10 +38,10 @@ function Filme() {
 
   const editElement = async (id) => {
     await api
-      .patch(`/${genero}/${id}`, {
+      .patch(`/${categoria}/${id}`, {
         nome: nome,
         poster: poster,
-        ano: ano,
+        preco: preco,
         descricao: descricao,
       })
       .then((sucesso) => console.log(sucesso));
@@ -57,7 +57,7 @@ function Filme() {
   }
 
   return (
-    <div className="container-filme">
+    <div className="container-produto">
       <Head title={item.nome}/>
       <div className="box-content">
         <div className="box-info">
@@ -79,16 +79,8 @@ function Filme() {
           <div className="box-description">
             <p>{item.descricao}</p>
             <div>
-              <p>Duração do filme: {item.duracao} min</p>
-              <p>Ano de lançamento: {item.ano}</p>
+              <p>Preço: {item.preco}</p>
             </div>
-            <a
-              className="btn-modal"
-              target="blank"
-              href={`https://youtube.com/results?search_query=Filme ${item.nome} ${item.ano} trailer`}
-            >
-              Assistir
-            </a>
           </div>
         </div>
         <div>
@@ -104,24 +96,24 @@ function Filme() {
       >
         <form>
           <div className="input-box">
-            <h2>Editar filme</h2>
+            <h2>Editar produto</h2>
             <label className="title-label">Nome</label>
             <input
               type="text"
               className="input-text"
-              placeholder="Digite o nome do filme"
+              placeholder="Digite o nome do produto"
               required
               onChange={(e) => setNome(e.target.value)}
             />
           </div>
 
           <div className="input-box">
-            <label className="title-label">Ano de Lançamento</label>
+            <label className="title-label">Preço</label>
             <input
               type="date"
               className="input-text"
-              placeholder="Digite o ano de lançamento"
-              onChange={(e) => setAno(e.target.value)}
+              placeholder="Digite o preco"
+              onChange={(e) => setPreco(e.target.value)}
             />
           </div>
 
@@ -136,10 +128,10 @@ function Filme() {
           </div>
 
           <div className="input-box">
-          <label className="title-label">Sinopse</label>
+          <label className="title-label">Descrição</label>
             <textarea
               className="input-text comment"
-              placeholder="Digite a descrição do filme..."
+              placeholder="Digite a descrição do produto..."
               onChange={(e) => setDescricao(e.target.value)}
             ></textarea>
           </div>
@@ -157,4 +149,4 @@ function Filme() {
   );
 }
 
-export default Filme;
+export default Produto;

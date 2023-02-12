@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 
 import Home from './routes/Home'
-import Terror from './routes/Filmes'
-import Filme from './routes/Filme'
+import Produtos from './routes/Perifericos'
+import Hardware from './routes/Hardware'
+import Perifericos from './routes/Perifericos'
+import Smartphones from './routes/Smartphones'
 import Adiciona from './routes/Adiciona'
 
 import { ToastContainer } from 'react-toastify'
@@ -22,17 +24,24 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/:genero",
-        element: <Terror/>
+        path: "/hardware",
+        element: <Hardware/>
+      },
+      {
+        path: "/perifericos",
+        element: <Perifericos/>
+      },
+      {
+        path: "/Smartphones",
+        element: <Smartphones/>
       },
       {
         path: "/adiciona",
         element: <Adiciona/>
       },
       {
-        
-        path: "/:genero/:id",
-        element: <Filme/>
+        path: "/produtos",
+        element: <Produtos/>
       },
 
     ]

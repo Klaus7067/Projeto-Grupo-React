@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import Modal from '../Modal/Modal';
 import api from '../../service/api'
 import 'react-toastify/dist/ReactToastify.css';
-import './Filme.css'
+import './Produto.css'
 
-const Filme = ({id, poster, nome, descricao, genero}) => {
+const Produto = ({id, nome, preco, descricao, categoria}) => {
     const [modalOpen, setModalOpen] = React.useState(false);
 
     
     const deleteElement = async (id) => {
-        await api.delete(`/${genero}/${id}`)
+        await api.delete(`/${categoria}/${id}`)
         .then((sucesso) => {
           if (sucesso.status === 200) window.location.reload()
         })
@@ -21,12 +21,12 @@ const Filme = ({id, poster, nome, descricao, genero}) => {
 
   return (
     <div key={id} className='property-card'>
-                <img src={poster} alt={nome} />
+                <img src={preco} alt={nome} />
                 <div className='property-description'>
                   <h5>{nome}</h5>
                   <div className='description'>{descricao}</div>
                   <div className='box-config'>
-                    <Link className='btn-link' to={`/${genero}/${id}`}>
+                    <Link className='btn-link' to={`/${categoria}/${id}`}>
                       Acessar
                     </Link>
                     
@@ -44,4 +44,4 @@ const Filme = ({id, poster, nome, descricao, genero}) => {
   )
 }
 
-export default Filme
+export default Produto

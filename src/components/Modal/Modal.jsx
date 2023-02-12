@@ -25,7 +25,7 @@ const Modal = ({ modalOpen, setModalOpen, id, nome, deleteFunc }) => {
         </div>
       </div>
       <div className={styles.modalBody}>
-        <p>Você realmente deseja excluir o filme "{nome}"? Este processo não pode ser desfeito.</p>
+        <p>Você realmente deseja excluir o produto "{nome}"? Este processo não pode ser desfeito.</p>
       </div>
       <div className={styles.modalFooter}>
         <button className={styles.btnSecondary} onClick={() => {
