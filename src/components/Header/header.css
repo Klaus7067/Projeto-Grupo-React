@@ -5,6 +5,11 @@ header{
     padding: 1rem 2rem;
     background-color: #17191f;
 }
+
+img{
+    width: 80px;
+}
+
 header h2 a{
     opacity: 1;
 }

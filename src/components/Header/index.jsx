@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '../../assets/logo.png'
+import logo from '../../assets/computador.png'
 import './header.css'
 
 function Header() {
@@ -32,7 +32,7 @@ function Header() {
                 </ul>
             </header>
         </div>
-     );
+    );
 }
 
 export default Header;
