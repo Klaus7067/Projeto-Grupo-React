@@ -14,7 +14,7 @@ function Home() {
             <div className='container-logo'>
                 <a className='logo'>
                     <p>
-                        Projeto Squads M3
+                        Gamer House
                     </p>
                 </a>
                 <p>
