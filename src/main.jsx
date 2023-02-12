@@ -10,23 +10,23 @@ const router = createBrowserRouter([
     errorElement: <h1>Erro 404 (Página não existe)</h1>,
     children: [
       {
-        path: "/pages/Home",
+        path: "/",
         element: <h1>Pagina de Inicio</h1>,
       },
       {
-        path: "/pages/Hardware",
+        path: "/Hardware",
         element: <h1>Pagina de Hardware</h1>,
       },
       {
-        path: "/pages/Perifericos",
+        path: "/Perifericos",
         element: <h1>Pagina de Perifericos</h1>,
       },
       {
-        path: "/pages/Contato",
+        path: "/Contato",
         element: <h1>Pagina de Contato</h1>,
       },
       {
-        path: "/pages/Sobre",
+        path: "/Sobre",
         element: <h1>Pagina de Sobre</h1>,
       },
     ]

@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import LogoJS from '../NavBar/javascript.svg';
 import { Link } from 'react-router-dom';
-import style from '../NavBar/styles.css';
+import style from '../NavBar/NavBar.module.css';
 
 function NavBar() {
     return (
@@ -21,7 +21,7 @@ function NavBar() {
                         Projeto React
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav><Link to="/Home" className={style.links}>Home</Link></Nav>
+                        <Nav><Link to="/" className={style.links}>Home</Link></Nav>
                         <Nav><Link to="/hardware" className={style.links}>Hardware</Link></Nav>
                         <Nav><Link to="/perifericos" className={style.links}>Perifericos</Link></Nav>
                         <Nav><Link to="/contato" className={style.links}>Contato</Link></Nav>
