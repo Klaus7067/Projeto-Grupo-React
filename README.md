@@ -15,7 +15,7 @@ Criar uma aplicação em React onde fosse possível realizar diversas métodos d
 
 # Acesso ao projeto
 
-Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react.vercel.app/)
+Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react-qwzcrf9hc-klaus7067.vercel.app/)
 
 # Abrir e rodar o projeto
 
