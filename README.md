@@ -54,7 +54,7 @@ Você pode acessar o deploy do projeto [aqui](https://.....)
 
 ### Juan Fernandes
 
-<a style="display: block;" href="https://github.com/LoboMurilo" target="_blank">
+<a style="display: block;" href="https://github.com/juanjpf" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
 <a href="https://www.linkedin.com/in/juanfernandes02/" target="_blank">
