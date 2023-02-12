@@ -18,7 +18,7 @@ function Home() {
                     </p>
                 </a>
                 <p>
-                Loja de Informática
+                O Point dos Jogadores
                 </p>
             </div>
 
