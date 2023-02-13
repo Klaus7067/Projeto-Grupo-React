@@ -111,7 +111,6 @@ textarea::placeholder {
   transition-duration: 0.9s all ease;
   cursor: pointer;
   color: #000;
-  font-weight: ;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
