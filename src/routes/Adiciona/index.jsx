@@ -89,7 +89,7 @@ const Adiciona = () => {
           <input
             type="valor"
             className="input-text"
-            placeholder="Digite o preco"
+            placeholder="Digite o preço"
             value={preco}
             onChange={(e) => {setPreco(e.target.value)}}
           />
@@ -110,7 +110,7 @@ const Adiciona = () => {
           <label className="title-label">Descrição</label>
           <textarea
             className="input-text comment"
-            placeholder="Digite a descrição do produto..."
+            placeholder="Digite a descrição do produto"
             value={descricao}
             onChange={(e) => setDescricao(e.target.value)}
           ></textarea>
