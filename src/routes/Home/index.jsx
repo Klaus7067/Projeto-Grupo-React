@@ -17,8 +17,9 @@ function Home() {
                         Gamer House
                     </p>
                 </a>
-                <p>
-                O Point dos Jogadores
+                <br />
+                <p className='conteudo_P'>
+                Bem-vindo à Gamer House, o lugar perfeito para jogadores apaixonados
                 </p>
             </div>
 
