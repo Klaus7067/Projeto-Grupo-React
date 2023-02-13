@@ -110,7 +110,8 @@ textarea::placeholder {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.192);
   transition-duration: 0.9s all ease;
   cursor: pointer;
-  color: #000;
+  color: #000; 
+  
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
