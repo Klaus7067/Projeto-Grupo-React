@@ -14,12 +14,12 @@ function Inicio() {
                     </span>
 
                     <div className="wrap-input margin-top-35 margin-bottom-35">
-                        <input className="input-form" type="email" autoComplete='off'/>
+                        <input className="input-form" type="email" autoComplete='off' required/>
                         <span className="focus-input-form" data-placeholder="E-mail"></span>
                     </div>
 
                     <div className="wrap-input margin-bottom-35">
-                        <input className="input-form" type="password"/>
+                        <input className="input-form" type="password" required/>
                         <span className="focus-input-form" data-placeholder="Senha"></span>
                     </div>
                     <form className="btn-login-form" action="/home">
