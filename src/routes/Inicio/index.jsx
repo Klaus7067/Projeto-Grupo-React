@@ -19,8 +19,8 @@ function Inicio() {
                     </div>
 
                     <div className="wrap-input margin-bottom-35">
-                        <input className="input-form" type="password" id='requisicao' />
-                        <span className="focus-input-form" data-placeholder="Senha" id='requisicao' ></span>
+                        <input className="input-form" type="password" />
+                        <span className="focus-input-form" data-placeholder="Senha"></span>
                     </div>
                     <form className="btn-login-form" action="/home">
                     <div className="container-login-form-btn">
