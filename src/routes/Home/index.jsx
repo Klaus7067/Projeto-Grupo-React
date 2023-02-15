@@ -14,11 +14,12 @@ function Home() {
             <div className='container-logo'>
                 <a className='logo'>
                     <p>
-                        Projeto Squads M3
+                        Gamer House
                     </p>
                 </a>
-                <p>
-                Loja de Informática
+                <br />
+                <p className='conteudo_P'>
+                Bem-vindo à Gamer House, o lugar perfeito para jogadores apaixonados
                 </p>
             </div>
 
@@ -42,7 +43,7 @@ function Home() {
                                     <div className="Plus--title">
                                         <p>PERIFÉRICOS</p>
                                     </div>
-                                    <img alt="" className="Plus--image Plus--hover-image" src="https://platformuploads.s3.amazonaws.com/media/14135/14350/16129008838009727.jpg?Signature=ZPr6L05Tp3UeoLLfUQOg%2FuopGbo%3D&AWSAccessKeyId=AKIAJOIWZCRTROUA2YMQ&Expires=1676309820"/>
+                                    <img alt="" className="Plus--image Plus--hover-image" src="https://as1.ftcdn.net/v2/jpg/02/85/90/44/1000_F_285904463_52tKiXp592qUhmg24eS3f4k1kGQSji3f.jpg"/>
                                 </div>
                             </div>
                         </div>

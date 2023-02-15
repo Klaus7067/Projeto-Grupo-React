@@ -32,7 +32,7 @@ function App() {
   if (load) {
     return (
       <div className="container">
-        <h1>Carregando items...</h1>
+        <h1>Carregando itens...</h1>
       </div>
     );
   }

@@ -148,12 +148,12 @@
     cursor: pointer;
     transition: all 1s ease;
     border: none;
-    background: rgba(193, 117, 255, 0.400);
+    background: #3a6186;
     opacity: 1;
   }
   
   .btn-delete:hover, .btn-link:hover  {
-    background: rgba(193, 117, 255, 0.300);
+    background: #243b55;
     transition-duration: 0.5s;
     border: 1px solid rgb(193, 117, 255);
     /* background: rgb(73, 5, 5);
