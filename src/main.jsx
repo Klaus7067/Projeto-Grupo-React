@@ -12,6 +12,7 @@ import { ToastContainer } from 'react-toastify'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Inicio from './routes/Inicio'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Inicio/>
+      },
+      {
+        path: "/home",
         element: <Home/>
       },
       {
