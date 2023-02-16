@@ -29,9 +29,13 @@ Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react.vercel
 - Instale as depêndencias com `npm install`
 - Executar o projeto com `npm run dev`
 
-# Imagens
+# Conhecendo a Gamer House
 
 ![Gamer House](https://github.com/Klaus7067/Projeto-Grupo-React/blob/main/src/assets/Imagens/Gamer%20House%20(3).png)
+
+![imagem](https://github.com/Klaus7067/Projeto-Grupo-React/blob/main/src/assets/Imagens/Gamer%20House%20(4).png)
+
+![imagem](https://github.com/Klaus7067/Projeto-Grupo-React/blob/main/src/assets/Imagens/Gamer%20House%20(5).png)
 
 # Tecnologias utilizadas 👨🏻‍💻
 
