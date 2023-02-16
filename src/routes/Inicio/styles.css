@@ -172,7 +172,10 @@ button:hover {
 /*
   Formulário
 */
-
+.container{
+  display: flex;
+  align-items: le;
+}
 .login-form {
   width: 100%;
 }
