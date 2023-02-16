@@ -6,6 +6,12 @@
 
 Criar uma aplicação em React onde fosse possível realizar diversas métodos de requisição à API. Neste projeto deveríamos consumir a API criada por um dos integrantes do grupo no projeto individual do módulo.
 
+# Quem Somos?
+
+Nascemos em um pequeno cantinho no interior de uma galeria, com 15 m³, no subúrbio de Irajá, em agosto de 2022. De lá pra cá, muita coisa mudou para melhor. Com o passar dos anos, fomos nos adaptando e aprendendo muito com cada uma das pessoas que passaram pela nossa casa. Passamos a compreender que jogar pode ir, muitas vezes, além de uma simples brincadeira e esse foi um dos pontos mais importantes para o nosso sucesso.
+
+A "GAMER HOUSE" é uma loja de produtos de informática voltada para o público gamer. Através de muitas pesquisas e muito trabalho, criamos uma loja estratégicamente pensada para melhor atender esse público, que só cresce com o passar do tempo.
+
 # Features e demonstração da aplicação
 
 - [x] Realizar os seguintes métodos de requisição a API: GET, PUT, PATCH e DELETE
