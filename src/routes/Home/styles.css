@@ -28,6 +28,7 @@ div .conteudo_P{
     font-family:"Open Sans", sans-serif;
     font-size: larger;
     font-weight:bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 .container-home p {
