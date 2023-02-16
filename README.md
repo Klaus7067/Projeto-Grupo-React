@@ -25,6 +25,7 @@ Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react.vercel
 
 # Imagens
 
+![image](https://github.com/Klaus7067/Projeto-Grupo-React/tree/main/src/assets/Imagens)
 
 # Tecnologias utilizadas 👨🏻‍💻
 
