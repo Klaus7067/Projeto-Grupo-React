@@ -23,6 +23,9 @@ Você pode acessar o deploy do projeto [aqui](https://projeto-grupo-react.vercel
 - Instale as depêndencias com `npm install`
 - Executar o projeto com `npm run dev`
 
+#Imagens
+
+
 # Tecnologias utilizadas 👨🏻‍💻
 
 - `React`
