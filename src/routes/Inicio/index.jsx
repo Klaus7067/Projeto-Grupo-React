@@ -25,7 +25,6 @@ function Inicio() {
                     <form className="btn-login-form" action="/home">
                     <div className="container-login-form-btn">
                             <input type="submit" className="login-form-btn"/>
-                            Login
                     </div>
                     </form>
 
