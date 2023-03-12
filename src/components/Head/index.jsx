@@ -5,6 +5,7 @@ const Head = (props) => {
       document.title = props.title
   }, [props])
 
+  
   return <></>
 }
 
